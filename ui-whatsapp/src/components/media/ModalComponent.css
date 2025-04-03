@@ -1,0 +1,17 @@
+.hover-blue-dashed:hover {
+  border: 2px dashed blue !important;
+}
+
+.uploader-container {
+  width: fit-content;
+  height: fit-content;
+  padding: 6px;
+  margin: auto;
+  border: 2px dashed grey;
+  border-radius: 10px;
+
+}
+
+.modal-footer{
+  margin-top:0px !important;
+}

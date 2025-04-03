@@ -1,0 +1,86 @@
+/* Define CSS Variables */
+:root {
+  --purple-light: #eae0f8; /* Example of a light purple color */
+  --purple: #6a1b9a; /* Example of a regular purple color */
+  --gray-5: #dcdcdc; /* Example of a light gray color */
+  --red: #ff1744; /* Red color for warnings */
+}
+
+/* Basic editor styles */
+.tiptap :first-child {
+  margin-top: 0;
+}
+
+.tiptap .mention {
+  /* background-color: var(--purple-light); */
+  border-radius: 0.4rem;
+  box-decoration-break: clone;
+  /* color: var(--purple); */
+  padding: 0.1rem 0.3rem;
+}
+
+/* Character count styles */
+.character-count {
+  float: inline-end;
+  margin-inline-end: 5px;
+}
+
+.character-count svg {
+  color: var(--purple);
+}
+
+.character-count--warning,
+.character-count--warning svg {
+  color: var(--red);
+}
+
+/* input group @K.H */
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  /* overflow: hidden; */
+}
+
+.input-group:hover {
+  border-color: #AAA;
+}
+
+.input-group .editor-content {
+  cursor: text;
+  flex: 1;
+  border: none;
+  padding: 7px;
+  /* font-size: 16px; */
+  outline: none;
+}
+
+.input-group .editor-content .ProseMirror {
+  padding: 0px;
+}
+
+.input-group .editor-content .ProseMirror p {
+  margin-bottom: 0px;
+}
+
+.input-group-button {
+  display: flex;
+  margin-inline-start: 0px;
+}
+
+.input-group-button a {
+  padding: 4px 5px !important;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.input-group-button a:hover {
+  color: #1F97FF !important;
+  background-color: rgba(0, 0, 0, .15);
+}
+
+
+
